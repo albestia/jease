@@ -1,5 +1,29 @@
 <jease>
   <component>
+    <domain>com.sofacamaonline.cms.domain.Opcion</domain>
+    <editor>com.sofacamaonline.cms.content.editor.OpcionEditor</editor>
+    <icon>~./jease/cms/Folder.png</icon>
+    <view>/site/domain/Opcion.jsp</view>
+  </component>
+  <component>
+    <domain>com.sofacamaonline.cms.domain.Categoria</domain>
+    <editor>com.sofacamaonline.cms.content.editor.CategoriaEditor</editor>
+    <icon>~./jease/cms/Folder.png</icon>
+    <view>/site/domain/Categoria.jsp</view>
+  </component>
+  <component>
+    <domain>com.sofacamaonline.cms.domain.Articulo</domain>
+    <editor>com.sofacamaonline.cms.content.editor.ArticuloEditor</editor>
+    <icon>~./jease/cms/Gallery.png</icon>
+    <view>/site/domain/Articulo.jsp</view>
+  </component>
+  <component>
+    <domain>com.sofacamaonline.cms.domain.ArticuloOpcion</domain>
+    <editor>com.sofacamaonline.cms.content.editor.ArticuloOpcionEditor</editor>
+    <icon>~./jease/cms/Gallery.png</icon>
+    <view>/site/domain/ArticuloOpcion.jsp</view>
+  </component>
+  <component>
     <domain>jease.cms.domain.Access</domain>
     <editor>jease.cms.web.content.editor.AccessEditor</editor>
     <icon>~./jease/cms/Access.png</icon>

@@ -21,7 +21,7 @@
             - XStream: jfix.db4o.engine.PersistenceEngineXStream
         </description>
         <param-name>JEASE_DATABASE_ENGINE</param-name>
-        <param-value>jfix.db4o.engine.PersistenceEnginePerst</param-value>
+        <param-value>jfix.db4o.engine.PersistenceEngineDb4o</param-value>
     </context-param>
 
     <context-param>
@@ -34,7 +34,7 @@
             will be interpreted as path for the database folder.
         </description>
         <param-name>JEASE_DATABASE_NAME</param-name>
-        <param-value>jease</param-value>
+        <param-value>/jease_perst/</param-value>
     </context-param>
 
     <context-param>
